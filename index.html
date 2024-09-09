@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="master.css" />
+    <!-- رابط للأيقونة الخاصة بالموقع -->
+    <link rel="icon" href="weather-icon-illustration03-Graphics-10205167-1.jpg" type="image/jpg">
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1 id="main">معلومات الطقس</h1>
+        <input type="text" id="cityInput" placeholder="أدخل اسم المدينة" />
+        <button id="get" onclick="getWeather()">احصل على الطقس</button>
+        <i id="toggle" onclick="toggleTheme()" class='bx bx-toggle-left'></i>
+        <div id="weatherInfo"></div>
+    </div>
+    <footer class=""><p>  Created By Ahmed Magdy &copy;</p></footer>
+    <script src="main.js"></script>
+</body>
+</html>

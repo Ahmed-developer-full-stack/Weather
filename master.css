@@ -1,0 +1,195 @@
+*
+{
+    font-family: serif;
+}
+
+#main
+{
+    text-align: center;
+    text-shadow: 1px 1px 1px red;
+}
+#get
+{
+    font-size: 22px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: right;
+  direction: rtl;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+.container {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 22px;
+
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* تنسيق معلومات الطقس */
+#weatherInfo {
+  margin-top: 20px;
+}
+
+.weather-card {
+  background-color: #2c2c2c; /* خلفية داكنة لكل بطاقة معلومات */
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 22px;
+  margin: 10px;
+}
+
+.weather-card h3 {
+  margin: 0;
+  text-align: center;
+  color: red;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin: 10px;
+}
+
+.weather-card p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 10px;
+}
+
+.weather-card img {
+  max-width: 100px;
+  display: block;
+  margin: 10px auto 0;
+}
+/* --------------------------------------------------------------- */
+/* الوضع الفاتح */
+body.light-mode {
+  background-color: #eee;
+  color: #000;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+
+body.light-mode .container {
+  background-color: #ffffff; /* خلفية فاتحة للصندوق */
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode input {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #333;
+}
+
+body.light-mode button {
+  background-color: #28a745;
+}
+
+body.light-mode .weather-card {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .weather-card p {
+  color: #000; 
+  font-weight: 700;
+  border: 2px solid black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 10px;
+}
+
+#toggle {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 50px;
+}
+
+footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #a7a1a11a;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-size:17px ;
+    border-radius: 25px 0 25px 0;
+    -webkit-border-radius: 25px 0 25px 0;
+    -moz-border-radius: 25px 0 25px 0;
+    -ms-border-radius: 25px 0 25px 0;
+    -o-border-radius: 25px 0 25px 0;
+}
+
+
+.light-mode footer {
+    background-color: #c2c2c257; 
+    color: #212529; }
