@@ -1,16 +1,13 @@
-*
-{
-    font-family: serif;
+* {
+  font-family: serif;
 }
 
-#main
-{
-    text-align: center;
-    text-shadow: 1px 1px 1px red;
+#main {
+  text-align: center;
+  text-shadow: 1px 1px 1px red;
 }
-#get
-{
-    font-size: 22px;
+#get {
+  font-size: 22px;
 }
 
 body {
@@ -99,17 +96,17 @@ button:hover {
 }
 
 .weather-card p {
-    margin: 0;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    border: 2px solid white;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    margin: 10px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin: 10px;
 }
 
 .weather-card img {
@@ -128,7 +125,6 @@ body.light-mode {
   -ms-transition: 0.7s;
   -o-transition: 0.7s;
 }
-
 
 body.light-mode .container {
   background-color: #ffffff; /* خلفية فاتحة للصندوق */
@@ -154,15 +150,15 @@ body.light-mode .weather-card {
 }
 
 body.light-mode .weather-card p {
-  color: #000; 
+  color: #000;
   font-weight: 700;
   border: 2px solid black;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    margin: 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin: 10px;
 }
 
 #toggle {
@@ -172,24 +168,23 @@ body.light-mode .weather-card p {
   font-size: 50px;
 }
 
-footer
-{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    background-color: #a7a1a11a;
-    color: #f0f0f0;
-    font-weight: 700;
-    font-size:17px ;
-    border-radius: 25px 0 25px 0;
-    -webkit-border-radius: 25px 0 25px 0;
-    -moz-border-radius: 25px 0 25px 0;
-    -ms-border-radius: 25px 0 25px 0;
-    -o-border-radius: 25px 0 25px 0;
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #a7a1a11a;
+  color: #f0f0f0;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 25px 0 25px 0;
+  -webkit-border-radius: 25px 0 25px 0;
+  -moz-border-radius: 25px 0 25px 0;
+  -ms-border-radius: 25px 0 25px 0;
+  -o-border-radius: 25px 0 25px 0;
 }
 
-
 .light-mode footer {
-    background-color: #c2c2c257; 
-    color: #212529; }
+  background-color: #c2c2c257;
+  color: #212529;
+}
